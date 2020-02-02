@@ -8,7 +8,7 @@ int main()
     int i, j, k, user, computer, scoreu, scorec;
     char c, name[50], play;
 
-label:
+
     printf("Press Y to play the game");
     scanf("%c", &c);
     srand(time(NULL));
@@ -16,7 +16,7 @@ label:
     if (c == 'Y' || c == 'y')
     {
 
-        printf("\n\n\n Enter your name here \n\t\n");
+      label:  printf("\n\n\n Enter your name here \n\t\n");
 
         scanf("%s", name);
 
