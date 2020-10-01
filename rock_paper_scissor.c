@@ -8,7 +8,7 @@ int main()
     int i, j, k, user, computer, scoreu, scorec;
     char c, name[50], play;
 
-
+    printf("Welcome to Rock paper scissor Game: \n \n ");
     printf("Press Y to play the game");
     scanf("%c", &c);
     srand(time(NULL));
